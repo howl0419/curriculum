@@ -1,0 +1,40 @@
+@media screen and (max-width: 767px) {
+
+  .wrapper {
+    width: 300px;
+  }
+  .left {
+    width: 100px;
+  }
+  .top2, .bottom2{
+    width: 125px;
+  }
+  .right2 {
+    width: 75px;
+  }
+  .bottom {
+    width: 200px;
+  }
+
+}
+
+@media screen and (max-width: 479px) {
+  
+  .wrapper, .left, .right2, .top2, .bottom2, .bottom {
+    width: 150px;
+  }
+  .top {
+    flex-direction: column;
+  }
+  .right2 {
+    order: 1;
+  }
+  .left2 {
+    order: 2;
+  }
+
+  .right, .left , .right2, .left2{
+    float: none;
+  }
+
+}
