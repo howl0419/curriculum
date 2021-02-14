@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  margin-top: 150px;
+  font-size: 30px;
+  font-family: serif;
+  border-bottom:solid white 3px ;
+}
+
+form {
+  margin-top: 100px;
+}
+input{
+  border: solid 1px black;
+}
+form input[type="text"] {
+  background-color: white;
+  padding: 4px 0;
+}
+form input[type="submit"] {
+  background-color: rgb(221, 221, 221);
+  border-radius: 4px;
+  padding: 0 6px;
+}
