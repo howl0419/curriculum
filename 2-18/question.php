@@ -8,9 +8,9 @@ $lan = ["PHP","Python","JAVA","HTML"];
 $cm = ["join","select","insert","update"];
 
 //② ①で作成した、配列から正解の選択肢の変数を作成してください
-$correct1 = "80";
-$correct2 = "HTML";
-$correct3 = "insert";
+$correct1 = $num[0];
+$correct2 = $lan[3];
+$correct3 = $cm[2];
 ?>
 <p>お疲れ様です<?php echo $name; ?>さん</p>
 
@@ -39,9 +39,9 @@ $correct3 = "insert";
  } ?>
 <!--問題の正解の変数と名前の変数を[answer.php]に送る-->
 <input type="hidden" name="name" value="<?php echo $name;?>"/>
-<input type="hidden" name="80" value="<?php echo $correct1;?>"/>
-<input type="hidden" name="HTML" value="<?php echo $correct2;?>"/>
-<input type="hidden" name="insert" value="<?php echo $correct3;?>"/>
+<input type="hidden" name="answer1" value="<?php echo $correct1;?>"/>
+<input type="hidden" name="answer2" value="<?php echo $correct2;?>"/>
+<input type="hidden" name="answer3" value="<?php echo $correct3;?>"/>
 <br>
 <input type="submit" value="回答する"/>
 </form>
