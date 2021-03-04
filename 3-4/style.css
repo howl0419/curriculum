@@ -1,0 +1,56 @@
+
+.wrapper {
+  padding-top: 100px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+.clearfix::after { 
+  content: '';
+  display: block; 
+  clear: both;
+}
+
+img, .right {
+  float: left;
+}
+img {
+  background-color:  #add8e6;
+  height: 120px;
+  width: 200px;
+}
+.top {
+  background-color: #87ceed;
+  width: 800px;
+  height:60px ;
+  line-height: 60px;
+  text-align: right;
+}
+.bottom {
+  background-color: #00ffff;
+  width: 800px;
+  height: 60px;
+  line-height: 60px;
+  text-align: right;
+}
+
+/* テーブル */
+table {
+  padding: 10px 0;
+  width: 800px;
+  margin: 0 auto;
+}
+th {
+  background-color: #87ceed;
+}
+tr {
+  background-color: #e0ffff;
+}
+
+/* フッター */
+footer {
+  width: 1000px;
+  height: 50px;
+  background-color: #00ced1;
+}
