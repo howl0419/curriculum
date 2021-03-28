@@ -1,0 +1,38 @@
+body {
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 100px;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+
+h1 , a{
+  font-weight: normal;
+  float: left;
+  margin:0 0 15px 0 ;
+}
+
+a{
+ text-decoration: none;
+ background-color: rgb(0, 155, 194);
+ color: white;
+ border: none;
+ border-radius: 4px;
+ margin-left: 30px;
+ font-size: 13px;
+ padding: 8px 24px;
+}
+
+input  {
+  margin: 10px 0;
+  padding: 10px 210px 10px 5px;
+  border-radius: 4px;
+  border: solid rgb(194, 194, 194) 1px;
+}
+
+input[type="submit"] {
+  padding: 7px 30px 7px 30px;
+  background-color: rgb(0, 150, 236);
+  color: white;
+  border: none;
+}
